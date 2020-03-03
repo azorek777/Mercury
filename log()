@@ -25,3 +25,4 @@ def log():
     if (user == 0):
         print("nieprawidłowy login lub hasło")
         log()
+    plik.close()
