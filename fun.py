@@ -3,12 +3,15 @@ import local
 #Funkcja sprawdza hasło i login użytkownika, ustawia który to użytkownik w pliku user.txt
 #w pliku zapis wygląda tak:
 '''
-(login)
-(hasło)
-(identyfikator użytkownika)
-(login 2)
-(hasło 2)
-(identyfikator użytkownika 2)
+login
+hasło
+identyfikator użytkownika
+typ użytkownika
+login 2
+hasło 2
+identyfikator użytkownika 2
+typ użytkownika 2
+...
 '''
 def log():
     plik = open("logins and passwords.txt", "r").read()
