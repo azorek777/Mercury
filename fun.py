@@ -75,3 +75,4 @@ def add_student():
     source.write("'")
     source.write(",")
     source.write("]")
+    source.close()
